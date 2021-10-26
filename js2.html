@@ -1,0 +1,23 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<input type="button" value="OnClick" onclick="OnClick()">
+		<br><br>
+		<input type="button" value="MouseOver" onmouseover="MouseOver()">
+		<br><br>
+		<input type="text" id="text1" onfocus="FocusEvent()">
+			<script>
+				function OnClick(){
+					document.write("onclick Event Executed");
+				}
+				function MouseOver(){
+					alert("Mouse Over Event");
+				}
+				function FocusEvent(){
+					document.getElementById("text1").style.background="gray";
+				}
+			</script>
+	</body>
+</html>

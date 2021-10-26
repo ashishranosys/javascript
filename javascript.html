@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<script>
+			arr=new Array(10,20,30,40,50);
+			for(i=0;i<=4;i++){
+				document.write(arr[i]+"<br>");
+			}
+			arr1=arr.pop();
+			document.write("<br>After Pop : "+arr+"<br>");
+			document.write("Arr1 : "+arr1+"<br><br>");
+			arr2=arr.push(90,91,92);
+			document.write("After Push : "+arr+"<br>");
+			document.write("Arr2 : "+arr2+"<br><br>");
+			arr3=arr.shift();
+			document.write("After Shift : "+arr+"<br>");
+			document.write("Arr3 : "+arr3+"<br><br>");
+			arr4=arr.unshift(80,79,78);
+			document.write("After Unshift : "+arr+"<br>");
+			document.write("Arr4 : "+arr4+"<br><br>");
+		</script>
+	</body>
+</html>
